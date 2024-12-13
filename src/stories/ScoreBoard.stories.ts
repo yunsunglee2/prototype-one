@@ -16,7 +16,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const normal: Story = {
+export const NormalScoreBaord: Story = {
   args: {
     center: 'St james Park',
     week: 10,
