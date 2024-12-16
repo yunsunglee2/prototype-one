@@ -15,7 +15,7 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    label: { description: '경기 리그 이름', control: 'text' },
+    label: { description: '리그 이름', control: 'text' },
   },
   args: {},
 } satisfies Meta<typeof FilterButton>;
