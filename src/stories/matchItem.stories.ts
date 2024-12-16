@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react/*';
 import MatchItem from 'components/commons/matchItem';
 
 const meta = {
-  title: 'CommonComponent/MatchItem',
+  title: 'Common_Component/MatchItem',
   component: MatchItem,
   parameters: {
     layout: 'centered',

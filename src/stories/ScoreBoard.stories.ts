@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react/*';
 import ScoreBoard from 'components/commons/scoreBoard';
 
 const meta = {
-  title: 'CommonComponent/ScoreBoard',
+  title: 'Common_Component/ScoreBoard',
   component: ScoreBoard,
   parameters: {
     layout: 'centered',
