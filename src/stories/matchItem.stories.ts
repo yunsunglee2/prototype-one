@@ -7,6 +7,11 @@ const meta = {
   component: MatchItem,
   parameters: {
     layout: 'centered',
+    docs: {
+      description: {
+        component: 'MatchItem 컴포넌트는 진행 예정인 경기 정보를 표시합니다.',
+      },
+    },
   },
   tags: ['autodocs'],
   argTypes: {},

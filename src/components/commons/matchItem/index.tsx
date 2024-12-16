@@ -1,12 +1,12 @@
 interface MatchItemProps {
-  /** 경기하는 팀을 홈팀과 어웨이팀으로 전달합니다. */
+  /** 홈/어웨이 팀 이름 */
   team: {
     home: string;
     away: string;
   };
-  /** 날짜는 문자열로 전달합니다. */
+  /** 경기 날짜 */
   date: string;
-  /** 시간을 문자열로 전달합니다.*/
+  /** 경기 시간*/
   time: string;
 }
 

@@ -1,5 +1,5 @@
 interface FilterButtonProps {
-  /** 리그명을 문자열로 내려줍니다. */
+  /** 리그 이름 */
   label: string;
 }
 

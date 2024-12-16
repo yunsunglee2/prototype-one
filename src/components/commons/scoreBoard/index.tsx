@@ -1,19 +1,19 @@
 interface ScoreBoardProps {
-  /** 경기가 진행되는 경기장을 문자열로 내려줍니다. */
+  /** 경기장 이름 */
   center: string;
-  /** 경기가 진행되는 주를 숫자로 내려줍니다. */
+  /** 경기 주차 */
   week: number;
-  /** 경기를 진행하는 팀을 홈팀과 어웨이팀으로 내려줍니다. */
+  /** 홈/어웨이 팀 이름 */
   team: {
     home: string;
     away: string;
   };
-  /** 점수를 숫자로 내려줍니다. */
+  /** 현재 점수 */
   score: {
     home: number;
     away: number;
   };
-  /** 경기 남은 시간을 숫자로 내려줍니다. */
+  /** 현재 경기 시간 */
   gameTime: number;
 }
 
